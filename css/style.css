@@ -1,0 +1,20 @@
+body {
+    
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 0;
+}
+input[type="text"] {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 8px 10px;
+    width: 300px
+}
+.speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
+.speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
+.speech img {float: right; width: 40px }
